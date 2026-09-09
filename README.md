@@ -1,16 +1,77 @@
-## Hi there 👋
+# こんにちは、ホ・スヨン（HEO SOOYEON）です
 
-<!--
-**genuinekumquat/genuinekumquat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+栄養士としての実務経験を経て、ITエンジニアを目指しています。
+現場の非効率な業務をシステムで解決したいという思いから、プログラミングを学び始めました。
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧑‍💻 自己紹介
+
+- 🥗 病院栄養士として約1年間勤務。Excelで個別管理されていた献立・発注データの非効率さに気づき、IT分野への転向を決意
+- 💻 ITWILL釜山教育センターでJava/Spring開発を学び、チーム開発を通じてDB設計・画面設計・機能実装を経験
+- 🇯🇵 日本のIT業界で実務経験を積むため、日本語学習にも継続的に取り組んでいます（JLPT N2取得）
+- 📍 現在、KITA（韓国貿易協会）-DSA「SMART Cloud IT-Master AX/DX」課程にて、クラウド・実務日本語を学習中
+
+---
+
+## 🛠 スキル
+
+**言語・フレームワーク**
+`Java` `Spring Framework` `JSP/Servlet` `JavaScript` `HTML/CSS`
+
+**データベース**
+`MySQL` `SQL`
+
+**インフラ・ツール**
+`AWS` `Git` `Apache Tomcat`
+
+**その他**
+`Excel（関数活用によるデータ管理）`
+
+---
+
+## 📜 保有資格
+
+| 資格名 | 取得年月 |
+|---|---|
+| 情報処理技師（韓国国家技術資格） | 2024年6月 |
+| SQLD（SQL開発者） | 2024年4月 |
+| AWS認定クラウドプラクティショナー | 2023年12月 |
+| JLPT（日本語能力試験）N2 | 2026年8月 |
+| JPT（Japanese Proficiency Test）615点 | 2026年7月 |
+
+---
+
+## 📂 プロジェクト
+
+### 🎫 Palette - ワンデイクラス予約サイト
+チーム開発（5名）｜Java, JSP, Servlet, JDBC, MySQL
+チームリーダー離脱という予期せぬ状況の中、書記・DB設計・画面設計・機能実装など複数の役割を主体的に担当し、期限内にプロジェクトを完了させました。
+- 担当: ログイン機能、商品(クラス)登録・修正・削除、レビュー作成機能、DB設計
+
+### 🏭 ICEMILE - Web MESシステム
+チーム開発（8名）｜Spring Framework, Java, MySQL
+アイスクリーム工場向け生産管理システム。画面設計とUIコーディング(マークアップ)を担当しました。
+
+### 🇰🇷 相撲情報検索サイト（個人開発）
+韓国語で相撲情報を得られる場所が少ないという課題を解決するため、個人で企画・開発した情報検索サイトです。
+sumo-api.com（個人開発者による無料公開API）を活用し、力士の対戦成績・番付情報を韓国語解説付きで検索できます。
+
+---
+
+## 🎯 今後の目標
+
+- 応用情報技術者、Oracle Java資格、SQL資格など、実務に直結する資格取得
+- React・クラウド分野など、モダンな技術スタックの習得
+- JLPT N1取得、実務レベルの日本語コミュニケーション力の向上
+
+---
+
+## 📫 連絡先
+
+- Email: （ここにメールアドレスを記載）
+- Blog / Portfolio: （ここにリンクを記載）
+
+---
+
+*「現場の課題を、技術で解決できるエンジニアへ。」*
