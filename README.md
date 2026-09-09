@@ -63,14 +63,14 @@ sumo-api.com（個人開発者による無料公開API）を活用し、力士�
 
 - 応用情報技術者、Oracle Java資格、SQL資格など、実務に直結する資格取得
 - React・クラウド分野など、モダンな技術スタックの習得
-- JLPT N1取得、実務レベルの日本語コミュニケーション力の向上
+- JLPT N2取得、実務レベルの日本語コミュニケーション力の向上
 
 ---
 
 ## 📫 連絡先
 
-- Email: （ここにメールアドレスを記載）
-- Blog / Portfolio: （ここにリンクを記載）
+- Email: thetruerome@naver.com
+- Blog / Portfolio: 
 
 ---
 
