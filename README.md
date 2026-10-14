@@ -9,6 +9,7 @@
 
 - 🥗 病院栄養士として約1年間勤務。Excelで個別管理されていた献立・発注データの非効率さに気づき、IT分野への転向を決意
 - 💻 ITWILL釜山教育センターでJava/Spring開発を学び、チーム開発を通じてDB設計・画面設計・機能実装を経験
+- 🏯 個人開発の [sumoarchive（相撲アーカイブ）](https://sumoarchive.com) を企画からAWSでの運用まで一人で担当し、2026年10月に公開
 - 🗾 日本のIT業界で実務経験を積むため、日本語学習にも継続的に取り組んでいます（JLPT N2取得）
 - 📍 現在、KITA（韓国貿易協会）-DSA「SMART Cloud IT-Master AX/DX」課程にて、クラウド・実務日本語を学習中
 
@@ -17,16 +18,16 @@
 ## 🛠 スキル
 
 **言語・フレームワーク**
-`Java` `Spring Framework` `JSP/Servlet` `JavaScript` `HTML/CSS`
+`Java` `Spring Boot` `Spring Data JPA` `Spring Framework` `Thymeleaf` `JavaScript` `HTML/CSS` `JSP/Servlet`
 
 **データベース**
-`MySQL` `SQL`
+`MySQL` `SQL` `Flyway`
 
 **インフラ・ツール**
-`AWS` `Git` `Apache Tomcat`
+`AWS（EC2・S3）` `Docker / Docker Compose` `Nginx` `GitHub Actions` `Git`
 
-**その他**
-`Excel（関数活用によるデータ管理）`
+**テスト**
+`JUnit 5` `Mockito`
 
 ---
 
@@ -45,19 +46,28 @@
 ## 📂 プロジェクト
 
 ### 🎫 Palette - ワンデイクラス予約サイト
+📁 [GitHub](https://github.com/genuinekumquat/palette)
 チーム開発（5名）｜Java, JSP, Servlet, JDBC, MySQL
 チームリーダー離脱という予期せぬ状況の中、書記・DB設計・画面設計・機能実装など複数の役割を主体的に担当し、期限内にプロジェクトを完了させました。
 - 担当: ログイン機能、商品(クラス)登録・修正・削除、レビュー作成機能、DB設計
 
 ### 🏭 ICEMILE - Web MESシステム
+📁 [GitHub](https://github.com/genuinekumquat/icemile)
 チーム開発（8名）｜Spring Framework, Java, MySQL
 アイスクリーム工場向け生産管理システム。画面設計とUIコーディング(マークアップ)を担当しました。
 
-### 🏯 相撲情報検索サイト（個人開発）
-韓国語で相撲情報を得られる場所が少ないという課題を解決するため、個人で企画・開発した情報検索サイトです。
-sumo-api.com（個人開発者による無料公開API）を活用し、力士の対戦成績・番付情報を韓国語解説付きで検索できます。
+### 🏯 sumoarchive（相撲アーカイブ）— 個人開発・運用中
+🔗 https://sumoarchive.com ｜ 📁 [GitHub](https://github.com/genuinekumquat/sumoarchive)
+Java 21, Spring Boot 3.5, JPA, MySQL, Flyway, Thymeleaf, AWS(EC2・S3), Docker, Nginx, GitHub Actions
+
+大相撲の番付・力士・取組を、韓国語と日本語で調べられるアーカイブサービスです。企画・設計から実装、AWSでの運用まで一人で担当しています。
+- 公開: 2026年10月10日（AWS EC2 + Docker Compose + Nginx、GitHub Actions で CI）
+- データ: 取組 **106,534件**・力士 1,157人・46場所（2019年〜）、場所中は取組結果を1日4回自動取込
+- テスト: JUnit 5 + Mockito **110件**、空のDBから Flyway + 全テストを毎回実行
+- 運用: 毎日 S3 バックアップ、実IPの取得・CSRF対策など公開後に見つかった課題も対応
 
 ### 🗾 Tanoshimi - 日韓交流旅行パーティーマッチングサービス
+📁 [GitHub](https://github.com/genuinekumquat/tanoshimi)
 チーム開発（6名→途中から4名）｜Spring Boot, Java, MySQL, AWS(S3/Rekognition), WebSocket
 チームリーダーとして、企画・設計、日程管理、ブランチ運用とPRの統合を担当しました。メンバー2名の離脱後は、残りの作業を引き継いでチームの体制を立て直しました。
 - 企画・設計: 企画書・要件定義書・画面設計書・ERD・WBS、マナー温度の制度設計（発動条件・加点減点ルール）
@@ -70,8 +80,8 @@ sumo-api.com（個人開発者による無料公開API）を活用し、力士�
 
 ## 🎯 今後の目標
 
-- 応用情報技術者、Oracle Java資格、SQL資格など、実務に直結する資格取得
-- React・クラウド分野など、モダンな技術スタックの習得
+- 応用情報技術者、Oracle Java資格など、実務に直結する資格取得
+- sumoarchive の継続運用と、AWS・コンテナ運用の知識をさらに深めること
 - JLPT N1取得、実務レベルの日本語コミュニケーション力の向上
 
 ---
@@ -79,7 +89,7 @@ sumo-api.com（個人開発者による無料公開API）を活用し、力士�
 ## 📫 連絡先
 
 - Email: thetruerome@naver.com
-- Blog / Portfolio: 
+- Portfolio: [Notion（日本語）](https://precious-pantydraco-4f1.notion.site/3f7cfec5cc538172ab72d8dcc3824b02)
 
 ---
 
